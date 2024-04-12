@@ -1,19 +1,6 @@
-num1 = int(input("Enter number 1 : "))
-num2 = int(input("Enter number 2: "))
-
-op = input("Enter any operator (+,-,*,/,%,//) :")
-
-match op:
-    case '+':
-        print(num1+num2)
-    case '-':
-        print(num1-num2)
-    case '*':
-        print(num1*num2)
-    case '/':
-        print(num1/num2)
-    case '%':
-        print(num1%num2)
-    case '//':
-        print(num1//num2)
-    
+#calculator by using math module....
+def cal(x,y):
+    print("Addition:",x+y)
+    print("Subtraction:",x-y)
+    print("Multiplication:",x*y)
+    print("Division:",x/y)
